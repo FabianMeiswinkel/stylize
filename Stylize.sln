@@ -1,0 +1,102 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stylize.Engine", "src\Stylize.Engine\Stylize.Engine.csproj", "{C1A0AF66-FE41-4446-B2AA-0C5318AEEA9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stylize.Rules.CSharp", "src\Stylize.Rules.CSharp\Stylize.Rules.CSharp.csproj", "{4BF1CEAA-D0FF-48CD-AE6A-379B1BC1A500}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stylize", "src\Stylize\Stylize.csproj", "{D3DAE202-9235-4F1E-B33E-6AB14532FB80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stylize.Repositories.Tfs", "src\Stylize.Repositories.Tfs\Stylize.Repositories.Tfs.csproj", "{8E29914E-9721-4C5B-AB4D-001042E7C377}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{6FC9F8A4-61A4-402C-BF25-8D634A68C51B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stylize.Rules.CSharpTests", "test\Stylize.Rules.CSharpTests\Stylize.Rules.CSharpTests.csproj", "{2511D50D-28D2-4748-8D4E-9B0AAD3FC6D0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9A7EAACC-5B4C-4D0E-9BAB-7DAD924C90E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stylize.EngineTests", "test\Stylize.EngineTests\Stylize.EngineTests.csproj", "{91CCCDF4-9885-43F9-97E1-08BBBD8658A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{B56348FE-5024-4A28-B584-7D4112B5A38B}"
+	ProjectSection(SolutionItems) = preProject
+		build\Product.props = build\Product.props
+		build\Product.ruleset = build\Product.ruleset
+		build\Shared.props = build\Shared.props
+		build\Test.props = build\Test.props
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1A0AF66-FE41-4446-B2AA-0C5318AEEA9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1A0AF66-FE41-4446-B2AA-0C5318AEEA9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1A0AF66-FE41-4446-B2AA-0C5318AEEA9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1A0AF66-FE41-4446-B2AA-0C5318AEEA9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BF1CEAA-D0FF-48CD-AE6A-379B1BC1A500}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BF1CEAA-D0FF-48CD-AE6A-379B1BC1A500}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BF1CEAA-D0FF-48CD-AE6A-379B1BC1A500}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BF1CEAA-D0FF-48CD-AE6A-379B1BC1A500}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3DAE202-9235-4F1E-B33E-6AB14532FB80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3DAE202-9235-4F1E-B33E-6AB14532FB80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3DAE202-9235-4F1E-B33E-6AB14532FB80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3DAE202-9235-4F1E-B33E-6AB14532FB80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E29914E-9721-4C5B-AB4D-001042E7C377}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E29914E-9721-4C5B-AB4D-001042E7C377}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E29914E-9721-4C5B-AB4D-001042E7C377}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E29914E-9721-4C5B-AB4D-001042E7C377}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2511D50D-28D2-4748-8D4E-9B0AAD3FC6D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2511D50D-28D2-4748-8D4E-9B0AAD3FC6D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2511D50D-28D2-4748-8D4E-9B0AAD3FC6D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2511D50D-28D2-4748-8D4E-9B0AAD3FC6D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91CCCDF4-9885-43F9-97E1-08BBBD8658A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91CCCDF4-9885-43F9-97E1-08BBBD8658A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91CCCDF4-9885-43F9-97E1-08BBBD8658A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91CCCDF4-9885-43F9-97E1-08BBBD8658A5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C1A0AF66-FE41-4446-B2AA-0C5318AEEA9F} = {9A7EAACC-5B4C-4D0E-9BAB-7DAD924C90E2}
+		{4BF1CEAA-D0FF-48CD-AE6A-379B1BC1A500} = {9A7EAACC-5B4C-4D0E-9BAB-7DAD924C90E2}
+		{D3DAE202-9235-4F1E-B33E-6AB14532FB80} = {9A7EAACC-5B4C-4D0E-9BAB-7DAD924C90E2}
+		{8E29914E-9721-4C5B-AB4D-001042E7C377} = {9A7EAACC-5B4C-4D0E-9BAB-7DAD924C90E2}
+		{2511D50D-28D2-4748-8D4E-9B0AAD3FC6D0} = {6FC9F8A4-61A4-402C-BF25-8D634A68C51B}
+		{91CCCDF4-9885-43F9-97E1-08BBBD8658A5} = {6FC9F8A4-61A4-402C-BF25-8D634A68C51B}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://mana-io.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = src\\Stylize.Engine\\Stylize.Engine.csproj
+		SccProjectTopLevelParentUniqueName1 = Stylize.sln
+		SccProjectName1 = src/Stylize.Engine
+		SccLocalPath1 = src\\Stylize.Engine
+		SccProjectUniqueName2 = src\\Stylize.Rules.CSharp\\Stylize.Rules.CSharp.csproj
+		SccProjectTopLevelParentUniqueName2 = Stylize.sln
+		SccProjectName2 = src/Stylize.Rules.CSharp
+		SccLocalPath2 = src\\Stylize.Rules.CSharp
+		SccProjectUniqueName3 = src\\Stylize\\Stylize.csproj
+		SccProjectTopLevelParentUniqueName3 = Stylize.sln
+		SccProjectName3 = src/Stylize
+		SccLocalPath3 = src\\Stylize
+		SccProjectUniqueName4 = src\\Stylize.Repositories.Tfs\\Stylize.Repositories.Tfs.csproj
+		SccProjectTopLevelParentUniqueName4 = Stylize.sln
+		SccProjectName4 = src/Stylize.Repositories.Tfs
+		SccLocalPath4 = src\\Stylize.Repositories.Tfs
+		SccProjectUniqueName5 = test\\Stylize.Rules.CSharpTests\\Stylize.Rules.CSharpTests.csproj
+		SccProjectTopLevelParentUniqueName5 = Stylize.sln
+		SccProjectName5 = test/Stylize.Rules.CSharpTests
+		SccLocalPath5 = test\\Stylize.Rules.CSharpTests
+		SccProjectUniqueName6 = test\\Stylize.EngineTests\\Stylize.EngineTests.csproj
+		SccProjectTopLevelParentUniqueName6 = Stylize.sln
+		SccProjectName6 = test/Stylize.EngineTests
+		SccLocalPath6 = test\\Stylize.EngineTests
+	EndGlobalSection
+EndGlobal
